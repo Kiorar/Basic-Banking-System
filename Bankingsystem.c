@@ -70,7 +70,6 @@ int main() {
                 break;
         }
 
-        // Check the balance status
         if (money < 0) {
             printf("You are in debt\n");
         } else if (money == 0) {
